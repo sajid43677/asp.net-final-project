@@ -12,17 +12,3 @@ D:\STUDY\Semester 11\.Net final project\asp.net-final-project\dal\bin\Debug\Enti
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\dal\obj\Debug\dal.csproj.CopyComplete
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\dal\obj\Debug\dal.Migrations.initDB.resources
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\dal\obj\Debug\dal.csproj.GenerateResource.cache
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\dal.dll.config
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\dal.dll
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\dal.pdb
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\EntityFramework.dll
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\EntityFramework.SqlServer.dll
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\EntityFramework.xml
-E:\study\last sem\.net\final project\asp.net-final-project\dal\bin\Debug\EntityFramework.SqlServer.xml
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.csproj.AssemblyReference.cache
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.Migrations.initDB.resources
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.csproj.GenerateResource.cache
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.csproj.CoreCompileInputs.cache
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.csproj.CopyComplete
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.dll
-E:\study\last sem\.net\final project\asp.net-final-project\dal\obj\Debug\dal.pdb

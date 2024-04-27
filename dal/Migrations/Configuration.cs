@@ -14,7 +14,7 @@
 
         protected override void Seed(dal.Models.SMContext context)
         {
-            for (int i = 1; i <= 10; i++)
+            /*for (int i = 1; i <= 10; i++)
             {
                 context.Securitys.AddOrUpdate(new Models.Security
                 {
@@ -50,7 +50,7 @@
                     secId = random.Next(1, 11)
 
                 }); ;
-            }
+            }*/
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method

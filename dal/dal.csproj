@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="SecDataAccessFactory.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202404261813449_initDB.cs" />
     <Compile Include="Migrations\202404261813449_initDB.designer.cs">
       <DependentUpon>202404261813449_initDB.cs</DependentUpon>
@@ -62,6 +64,10 @@
     <Compile Include="Models\Shift.cs" />
     <Compile Include="Models\SMContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\ReportRepo.cs" />
+    <Compile Include="Repos\SecurityRepo.cs" />
+    <Compile Include="Repos\ShiftRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

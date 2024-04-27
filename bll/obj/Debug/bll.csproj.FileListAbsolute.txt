@@ -10,15 +10,5 @@ D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\obj\Debug\bll.
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\EntityFramework.dll
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\dal.dll.config
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\EntityFramework.xml
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\bll.dll
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\bll.pdb
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\dal.dll
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\EntityFramework.dll
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\dal.pdb
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\dal.dll.config
-E:\study\last sem\.net\final project\asp.net-final-project\bll\bin\Debug\EntityFramework.xml
-E:\study\last sem\.net\final project\asp.net-final-project\bll\obj\Debug\bll.csproj.AssemblyReference.cache
-E:\study\last sem\.net\final project\asp.net-final-project\bll\obj\Debug\bll.csproj.CoreCompileInputs.cache
-E:\study\last sem\.net\final project\asp.net-final-project\bll\obj\Debug\bll.csproj.CopyComplete
-E:\study\last sem\.net\final project\asp.net-final-project\bll\obj\Debug\bll.dll
-E:\study\last sem\.net\final project\asp.net-final-project\bll\obj\Debug\bll.pdb
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\AutoMapper.dll
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\AutoMapper.xml
