@@ -52,6 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Migrations\202404271836315_teantrepair.cs" />
+    <Compile Include="Migrations\202404271836315_teantrepair.designer.cs">
+      <DependentUpon>202404271836315_teantrepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Repair.cs" />
+    <Compile Include="Models\Tenant.cs" />
+    <Compile Include="Repos\RepairRepo.cs" />
+    <Compile Include="Repos\TenantRepo.cs" />
     <Compile Include="SecDataAccessFactory.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202404261813449_initDB.cs" />
@@ -76,6 +84,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202404261813449_initDB.resx">
       <DependentUpon>202404261813449_initDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271836315_teantrepair.resx">
+      <DependentUpon>202404271836315_teantrepair.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
