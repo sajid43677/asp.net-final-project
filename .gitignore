@@ -358,11 +358,11 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-Society Management/Web.config
-Society Management/bin/
-Society Management/obj/
 bll/bin/
 bll/obj/
 dal/bin/
 dal/obj/
+Society Management/Web.config
+Society Management/bin/
+Society Management/obj/
 
