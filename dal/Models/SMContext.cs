@@ -15,5 +15,8 @@ namespace dal.Models
 
         public DbSet<Report> Reports { get; set; }
 
+        public DbSet<Tenant> Tenants { get; set; }
+        public DbSet<Repair> Repairs { get; set; }
+
     }
 }
