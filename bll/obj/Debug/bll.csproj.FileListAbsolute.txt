@@ -10,3 +10,5 @@ D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\obj\Debug\bll.
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\EntityFramework.dll
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\dal.dll.config
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\EntityFramework.xml
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\AutoMapper.dll
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\bll\bin\Debug\AutoMapper.xml

@@ -71,3 +71,8 @@ D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\EntityFramework.SqlServer.dll
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\EntityFramework.xml
 D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\EntityFramework.SqlServer.xml
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\dal.dll
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\AutoMapper.dll
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\dal.pdb
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\dal.dll.config
+D:\STUDY\Semester 11\.Net final project\asp.net-final-project\Society Management\bin\AutoMapper.xml

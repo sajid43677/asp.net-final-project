@@ -24,11 +24,11 @@ namespace dal.Models
         [StringLength(4)]
         public string password { get; set; }
 
-        public virtual ICollection<Report> Securitys { get; set; }
+        public virtual ICollection<Report> Reports { get; set; }
 
         public Security() {
 
-            Securitys = new List<Report>(); 
+            Reports = new List<Report>(); 
         }
     }
 }
