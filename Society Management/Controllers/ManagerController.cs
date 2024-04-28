@@ -88,5 +88,94 @@ namespace Society_Management.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("api/tenant")]
+        public HttpResponseMessage tenants()
+        {
+            try
+            {
+                var data = manTenantService.Get();
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("api/tenant/{id}")]
+        public HttpResponseMessage tenantwithId(int id)
+        {
+            try
+            {
+                var data = manTenantService.Get(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+        [HttpGet]
+        [Route("api/tenant/repair/{id}")]
+        public HttpResponseMessage tenantwithRepair(int id)
+        {
+            try
+            {
+                var data = manTenantService.GetwithRepair(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPost]
+        [Route("api/tenant/add")]
+        public HttpResponseMessage AddTenant(manTenantDTO tenant)
+        {
+            try
+            {
+                var data = manTenantService.Create(tenant);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        [Route("api/tenant/update")]
+        public HttpResponseMessage UpdateTenant(manTenantDTO tenant)
+        {
+            try
+            {
+                var data = manTenantService.Update(tenant);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        [Route("api/tenant/delete/{id}")]
+        public HttpResponseMessage DeleteTenant(int id)
+        {
+            try
+            {
+                var data = manTenantService.Delete(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
     }
 }

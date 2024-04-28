@@ -13,13 +13,14 @@ namespace dal.Repos
         public Tenant Create(Tenant entity)
         {
             db.Tenants.Add(entity);
-            db.SaveChanges();
-            return entity;
+            if(db.SaveChanges() > 0) return entity;
+            else return null;
         }
 
         public bool Delete(int id)
         {
             var tenant = db.Tenants.Find(id);
+            if(tenant == null) return false;
             db.Tenants.Remove(tenant);
             db.SaveChanges();
             return true;
@@ -38,6 +39,7 @@ namespace dal.Repos
         public Tenant Update(Tenant entity)
         {
             var tenant = db.Tenants.Find(entity.id);
+            if(tenant == null) return null;
             tenant.floorNo = entity.floorNo;
             tenant.flatNo = entity.flatNo;
             db.SaveChanges();
