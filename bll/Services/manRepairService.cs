@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using bll.DTOs;
+using BLL.DTOs;
 using dal;
 using dal.Models;
 using System;
@@ -76,5 +77,9 @@ namespace bll.Services
             return manDataAccessFactory.RepairData().Delete(id);
         }
 
+        public static manRepairDTO Create(SecSecurityDTO security)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

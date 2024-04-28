@@ -15,7 +15,6 @@ namespace BLL.DTOs
         public string name { get; set; }
         [Required]
         public string phone { get; set; }
-        [Required]
         public string password { get; set; }
     }
 }
