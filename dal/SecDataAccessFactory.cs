@@ -26,14 +26,6 @@ namespace dal
             return new ShiftRepo();
         }
 
-        public static IRepo<Tenant, int, Tenant> TenantData()
-        {
-            return new TenantRepo();
-        }
-
-        public static IRepo<Repair, int, Repair> RepairData()
-        {
-            return new RepairRepo();
-        }
+        
     }
 }
