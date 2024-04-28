@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using bll.DTOs;
 using BLL.DTOs;
 using dal;
 using dal.Models;
@@ -54,5 +55,50 @@ namespace BLL.Services
             var mapped = mapper.Map<SecSecurityReportDTO>(data);
             return mapped;
         }
+
+
+        public static SecSecurityDTO AddSecurity(SecSecurityDTO security)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<SecSecurityDTO, Security>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<Security>(security);
+            var data = SecDataAccessFactory.SecurityData().Create(mapped);
+            var cfg2 = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Security, SecSecurityDTO>();
+            });
+            var mapper2 = new Mapper(cfg2);
+            var mapped2 = mapper2.Map<SecSecurityDTO>(data);
+            return mapped2;
+        }
+
+
+        public static SecSecurityDTO Update(SecSecurityDTO security)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap< SecSecurityDTO, Security > ();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<Security>(security);
+            var data = SecDataAccessFactory.SecurityData().Update(mapped);
+            var cfg2 = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Security, SecSecurityDTO>();
+            });
+            var mapper2 = new Mapper(cfg2);
+            var mapped2 = mapper2.Map<SecSecurityDTO>(data);
+            return mapped2;
+        }
+
+        public static bool Delete(int id)
+        {
+            return SecDataAccessFactory.SecurityData().Delete(id);
+        }
+
+
     }
 }

@@ -38,7 +38,7 @@ namespace dal.Repos
 
         public Security Update(Security obj)
         {
-            var ex = db.Shifts.Find(obj.id);
+            var ex = db.Securitys.Find(obj.id);
             db.Entry(ex).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0) return obj; 
             else return null;
