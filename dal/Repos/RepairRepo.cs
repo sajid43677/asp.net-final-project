@@ -34,8 +34,11 @@ namespace dal.Repos
             {
                 repair.repairDetails = obj.repairDetails;
                 repair.status = obj.status;
-                repair.tid = obj.tid;
                 db.SaveChanges();
+            }
+            else
+            {
+                return null;
             }
             return repair;
         }

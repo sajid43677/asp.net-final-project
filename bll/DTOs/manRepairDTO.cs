@@ -11,8 +11,6 @@ namespace bll.DTOs
     public class manRepairDTO
     {
         public int id { get; set; }
-
-        [Required]
         public string repairDetails { get; set; }
         [Required]
         public string status { get; set; }

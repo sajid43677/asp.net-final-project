@@ -35,5 +35,46 @@ namespace bll.Services
             return mapped;
         }
 
+        public static manRepairDTO Create(manRepairDTO repair)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<manRepairDTO, Repair>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<Repair>(repair);
+            var data = manDataAccessFactory.RepairData().Create(mapped);
+            var cfg2 = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Repair, manRepairDTO>();
+            });
+            var mapper2 = new Mapper(cfg2);
+            var mapped2 = mapper2.Map<manRepairDTO>(data);
+            return mapped2;
+        }
+
+        public static manRepairDTO Update(manRepairDTO repair)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<manRepairDTO, Repair>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<Repair>(repair);
+            var data = manDataAccessFactory.RepairData().Update(mapped);
+            var cfg2 = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Repair, manRepairDTO>();
+            });
+            var mapper2 = new Mapper(cfg2);
+            var mapped2 = mapper2.Map<manRepairDTO>(data);
+            return mapped2;
+        }
+
+        public static bool Delete(int id)
+        {
+            return manDataAccessFactory.RepairData().Delete(id);
+        }
+
     }
 }

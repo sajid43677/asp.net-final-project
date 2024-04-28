@@ -55,6 +55,26 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
+            /*for (int i = 1; i <= 10; i++)
+            {
+                Random random = new Random();
+                context.Repairs.AddOrUpdate(new Models.Repair
+                {
+                    id = i,
+                    repairDetails = Guid.NewGuid().ToString().Substring(0, 15),
+                    status = Guid.NewGuid().ToString().Substring(0, 7),
+                    tid = random.Next(1,11),
+
+                });
+                context.Tenants.AddOrUpdate(new Models.Tenant
+                {
+                    id = i,
+                    floorNo = random.Next(1,11),
+                    flatNo = Guid.NewGuid().ToString().Substring(0, 7),
+                    uid = i,
+
+                });
+            }*/
         }
     }
 }
