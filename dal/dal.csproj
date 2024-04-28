@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="manDataAccessFactory.cs" />
     <Compile Include="Migrations\202404271836315_teantrepair.cs" />
     <Compile Include="Migrations\202404271836315_teantrepair.designer.cs">
       <DependentUpon>202404271836315_teantrepair.cs</DependentUpon>
